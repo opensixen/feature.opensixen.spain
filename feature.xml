@@ -16,6 +16,14 @@
       [Enter License Description here.]
    </license>
 
+   <requires>
+      <import plugin="org.opensixen.base" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.opensixen.libs" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.opensixen.core.reports" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.opensixen.core.common" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
    <plugin
          id="org.opensixen.spain.acct"
          download-size="0"
